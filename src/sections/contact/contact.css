@@ -1,0 +1,123 @@
+.contact__container {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contact__container a {
+    width: 5rem;
+    aspect-ratio: 1/1;
+    color: white;
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-1);
+}
+
+.contact__container a:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    transform: translateY(-0.5rem);
+}
+
+
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .contact__container {
+        gap: 1.5rem;
+    }
+}
+
+.formulaire_container {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+.formulaire_container p a {
+    
+    color: sandybrown; 
+
+}
+
+.formulaire_container h2 {
+    background: #fff;
+    color: #333;
+    font-weight: 800;
+    padding: 0 0.5rem;
+    text-transform: uppercase;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+.formulaire_form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    
+}
+.formulaire_btns {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    column-gap: 1rem;
+}
+                                                            
+form button {
+    background: var(--color-primary);
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.inputGroup label {
+    font-size: .9rem;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 0.5rem;
+    border-radius: 15px;
+}
+
+.inputGroup input, .inputGroup textarea {
+    border: 1px solid #e2e2e2;
+    padding: 1.5rem;
+    border-radius: 7px;
+    height: 40px;
+}
+.inputGroup textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* .field{
+   color: rgb(27, 83, 83);
+}  */
+
+@media screen and (max-width: 1024px) {
+
+    .formulaire_container {
+        
+        display: block;
+        
+    }
+    .formulaire_form img{
+        display: none;
+        justify-content: center;
+    }
+    
+}
+

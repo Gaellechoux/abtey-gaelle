@@ -1,0 +1,30 @@
+
+.btn{
+
+    display: inline-block;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    background: var(--color-light);
+    color: var(--color-black);
+    padding: 0.6rem 2.5rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-2);
+    cursor: pointer;
+    background: var(--color-primary);
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover{
+background: rgb(41, 15, 65);
+transform: translateY(-0.5rem);
+border: 2px solid transparent;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        padding: 0.6rem 1.5rem;
+    }
+}
