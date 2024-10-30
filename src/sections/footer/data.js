@@ -5,7 +5,7 @@ import {AiFillGithub} from 'react-icons/ai'
 
 export const links = [
     {id: 1, link: '#', title: 'Accueil'},
-    {id: 2, link: '#about', title: 'A Propos'},
+    {id: 2, link: '#informations', title: 'A Propos'},
     {id: 3, link: '#services', title: 'Services'},
     {id: 4, link: '#portfolio', title: 'Portfolio'},
     {id: 5, link: '#contact', title: 'Contact'}
